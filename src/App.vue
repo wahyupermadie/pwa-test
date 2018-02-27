@@ -8,7 +8,7 @@
     <div class="mdl-layout__drawer">
       <span class="mdl-layout-title">Testing PWA</span>
       <nav class="mdl-navigation">
-        <router-link class="mdl-navigation__link" to="{ name: 'home'}" @click.native="hideMenu">Home</router-link>
+        <router-link class="mdl-navigation__link" to="/pwa-test" @click.native="hideMenu">Home</router-link>
       </nav>
     </div>
     <main class="mdl-layout__content">
